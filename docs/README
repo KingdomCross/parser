@@ -6,3 +6,5 @@ The parser is complete according to the specifications outlined on the project s
 4. 'Plug and Play' tables and lookup tokens -- easily altered or integrated with other programs
 5. Class structure is made to allow further development
 6. Error handling (try/catch) for bad input
+
+Thanks to professor
