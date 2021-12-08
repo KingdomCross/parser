@@ -1,0 +1,12 @@
+User Instruction:
+Run the scanner and select AlexDocs/sample.txt
+
+Programmer Problem:
+Could not solve how to put token
+    dcolon: ::
+into actiontable, lookuptable, and statetable.
+
+Special Thanks:
+Thanks to Professor Anthony Giacalone for the original project; to work on the assignment of CECS 444.
+    https://github.com/agiacalone/scanner
+The assignment is to create nfa, dfa, and scanner.

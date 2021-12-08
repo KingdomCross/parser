@@ -1,5 +1,3 @@
-currency
-real
 abs
 abstract
 and
@@ -38,6 +36,7 @@ elseif
 end
 endif
 enum
+eprogram
 explicit
 export
 extends
@@ -101,6 +100,7 @@ rewind
 short
 signed
 sizeof
+start
 static
 static_cast
 stop

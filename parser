@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-# import scanner and all its tables
+# import scanner.py-Professor and all its tables
 import sys
-sys.path.append('scanner')
+sys.path.append('scanner-Alex')
 from scanner import *
 from output import *
 from parser_tokens import *
@@ -28,7 +28,7 @@ counter = 0
 remove_values_from_list(scan_results, 'comment')
 remove_values_from_list(scan_results, ' ')
 
-# Build an array of values that correspond to the states read in from the scanner
+# Build an array of values that correspond to the states read in from the scanner.py-Professor
 while counter < len(scan_results):
     val_result.append(parser_tokens.get_token(scan_results[counter]))
     counter += 1
