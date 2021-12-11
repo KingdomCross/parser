@@ -1,0 +1,19 @@
+Production	    PREDICT SET
+program		    {library}
+program'	    {$}
+libtoken_tail	{library}
+libtoken_tail'	{$}
+start		    {library}
+start'		    {$}
+code		    {library id}
+code'		    {$}
+var_type_tail	{id :}
+var_type_tail'	{$}
+var_tail	    {, id}
+var_tail'	    {$}
+statemt_tail	{id device_open for repeat while if device_close read_from_device write_to_device writeln readln}
+statemt_tail'	{$}
+primary_tail	{+ -}
+primary_tail'	{$}
+sec_tail	    {* /}
+sec_tail'	    {$}

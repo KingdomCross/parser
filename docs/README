@@ -1,10 +1,15 @@
-The parser is complete according to the specifications outlined on the project sheet. Two samples have been provided, along with screenshots of the GUI. Some highlights:
+User Instruction:
+Run the parser.py and select docs/sample.txt
 
-1. Complete GUI input and output with file selection
-2. Fully integrated with the scanner
-3. Built to recognize pop and scan errors, and report the issue appropriately.
-4. 'Plug and Play' tables and lookup tokens -- easily altered or integrated with other programs
-5. Class structure is made to allow further development
-6. Error handling (try/catch) for bad input
+Programmer Problem:
+Could not solve parser table.
+My scanner-Alex is not correct, specifically all the tables.
 
-Thanks to professor
+Programmer Note:
+In the end, I'm using the professor scanner because of the familiarity.
+My parser is not successful and there is a lot of materials to learn about compiler but I did learn.
+
+Special Thanks:
+Thanks to Professor Anthony Giacalone for the original project; to work on the assignment of CECS 444.
+    https://github.com/agiacalone/parser
+The assignment is "Compiler Project Part Two - LL Parser"

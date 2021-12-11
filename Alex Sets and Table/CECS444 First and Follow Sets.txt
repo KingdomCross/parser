@@ -1,0 +1,62 @@
+Symbol			    derives λ array		FIRST SETS												                                            FOLLOW SETS
+library			    FALSE			    {library}												                                            na
+id			        FALSE			    {id}													                                            na
+end			        FALSE			    {stop}													                                            na
+main			    FALSE			    {begin}													                                            {id device_open for repeat while if device_close read_from_device write_to_device writeln readln}
+var			        FALSE			    {id}													                                            na
+vars			    FALSE			    {id}													                                            {id}
+var_type		    FALSE			    {id}													                                            {, λ}
+ptype			    FALSE			    {int sci real currency string}										                                na
+var_type_tail		TRUE			    {id λ}													                                            {: λ}
+var_tail		    TRUE			    {, λ}													                                            {id}
+int			        FALSE			    {int}													                                            na
+sci			        FALSE			    {sci}													                                            na
+real			    FALSE			    {real}													                                            na
+currency		    FALSE			    {currency}												                                            na
+string			    FALSE			    {string}												                                            na
+begin			    FALSE			    {begin}													                                            na
+;			        FALSE			    {;}													                                                na
+statemt			    FALSE			    {id device_open for repeat while if device_close read_from_device write_to_device writeln readln}	{:: file id do (}
+statemt_list		FALSE			    {id device_open for repeat while if device_close read_from_device write_to_device writeln readln}	{id device_open for repeat while if device_close read_from_device write_to_device writeln readln}
+statemt_tail		TRUE			    {id device_open for repeat while if device_close read_from_device write_to_device writeln readln λ}	{id device_open for repeat while if device_close read_from_device write_to_device writeln readln λ}
+return			    FALSE			    {return}												                                            na
+file			    FALSE			    {file}													                                            na
+for			        FALSE			    {for}													                                            na
+to			        FALSE			    {to}													                                            na
+do			        FALSE			    {do}													                                            na
+repeat			    FALSE			    {repeat}												                                            na
+until			    FALSE			    {until}													                                            na
+while			    FALSE			    {while}													                                            na
+if			        FALSE			    {if}													                                            na
+then			    FALSE			    {then}													                                            na
+else			    FALSE			    {else}													                                            na
+device_open		    FALSE			    {device_open)												                                        na
+device_close		FALSE			    {device_close}												                                        na
+read_from_device	FALSE			    {read_from_device}											                                        na
+write_to_device		FALSE			    {write_to_device)											                                        na
+writeln			    FALSE			    {writeln}												                                            na
+readln			    FALSE			    {readln}												                                            na
+::			        FALSE			    {::}													                                            na
+relational_op		FALSE			    {< > <= >= == !=}											                                        na
+<			        FALSE			    {<}													                                                na
+>			        FALSE			    {>}													                                                na
+<=			        FALSE			    {<=}													                                            na
+>=			        FALSE			    {>=}													                                            na
+!=			        FALSE			    {!=}													                                            na
++			        FALSE			    {+}													                                                na
+-			        FALSE			    {-}													                                                na
+*			        FALSE			    {*}													                                                na
+/			        FALSE			    {/}													                                                na
+abs			        FALSE			    {abs}													                                            na
+fabs			    FALSE			    {fabs}													                                            na
+stop			    FALSE			    {stop}													                                            na
+program			    TRUE			    {library λ}												                                            {library λ}
+libtoken		    FALSE			    {library}												                                            na
+libtoken_tail		TRUE			    {library λ}												                                            {library λ}
+start			    TRUE			    {library λ}												                                            na
+code			    TRUE			    {library λ}												                                            {id}
+exp			        FALSE			    {( id int real sci currency abs fabs}									                            na
+primary			    FALSE			    {( id int real sci currency abs fabs}									                            {* / λ}
+secondary		    FALSE			    {( id int real sci currency abs fabs}									                            {exp}
+primary_tail		TRUE			    {+ - λ}													                                            {+ - λ}
+sec_tail		    TRUE			    {* / λ}													                                            {* / λ}

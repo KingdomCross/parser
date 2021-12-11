@@ -2,7 +2,7 @@
 
 # import scanner.py-Professor and all its tables
 import sys
-sys.path.append('scanner-Alex')
+sys.path.append('scanner-Professor')
 from scanner import *
 from output import *
 from parser_tokens import *
